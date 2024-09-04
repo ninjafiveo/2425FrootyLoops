@@ -12,7 +12,9 @@ namespace _2425FrootyLoops
         {
             //for_loops();
             //foreach_loops();
-            while_loops();
+            //while_loops();
+            doWhile_loops();
+
 
             Console.ReadLine();
         }
@@ -45,6 +47,17 @@ namespace _2425FrootyLoops
                  Console.WriteLine($"There are {numberOfNinjas} in this room. Can you count them?");
                 numberOfNinjas++;
             }
+        }
+
+        static void doWhile_loops()
+        {
+            int numberOfBobs = 1;
+
+            do
+            {
+                Console.WriteLine($"There are {numberOfBobs} Bob's out there.");
+                numberOfBobs++;
+            } while (numberOfBobs <= 20);
         }
 
 
